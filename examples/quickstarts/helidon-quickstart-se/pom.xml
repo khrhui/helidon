@@ -28,7 +28,7 @@
     <name>Helidon Quickstart SE Example</name>
 
     <properties>
-        <helidon.version>1.2.2-SNAPSHOT</helidon.version>
+        <helidon.version>1.2.1</helidon.version>
         <helidon.plugin.version>1.0.10</helidon.plugin.version>
         <mainClass>io.helidon.examples.quickstart.se.Main</mainClass>
         <exec.mainClass>${mainClass}</exec.mainClass>
@@ -148,22 +148,27 @@
         <dependency>
             <groupId>io.helidon.bundles</groupId>
             <artifactId>helidon-bundles-webserver</artifactId>
+            <version>${helidon.version}</version>
         </dependency>
         <dependency>
             <groupId>io.helidon.config</groupId>
             <artifactId>helidon-config-yaml</artifactId>
+            <version>${helidon.version}</version>
         </dependency>
         <dependency>
             <groupId>io.helidon.health</groupId>
             <artifactId>helidon-health</artifactId>
+            <version>${helidon.version}</version>
         </dependency>
         <dependency>
             <groupId>io.helidon.health</groupId>
             <artifactId>helidon-health-checks</artifactId>
+            <version>${helidon.version}</version>
         </dependency>
         <dependency>
             <groupId>io.helidon.metrics</groupId>
             <artifactId>helidon-metrics</artifactId>
+            <version>${helidon.version}</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
